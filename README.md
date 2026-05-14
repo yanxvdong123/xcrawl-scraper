@@ -1,6 +1,7 @@
 # XCrawl Scraper
 
 [![npm version](https://img.shields.io/npm/v/xcrawl-scraper)](https://www.npmjs.com/package/xcrawl-scraper)
+[![GitHub stars](https://img.shields.io/github/stars/yanxvdong123/xcrawl-scraper?style=social)](https://github.com/yanxvdong123/xcrawl-scraper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Node.js SDK + CLI for XCrawl — the web scraping API that handles JS rendering, CAPTCHAs, and proxy rotation automatically.**
