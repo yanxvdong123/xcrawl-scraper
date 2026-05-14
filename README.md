@@ -4,20 +4,11 @@
 [![GitHub stars](https://img.shields.io/github/stars/yanxvdong123/xcrawl-scraper?style=social)](https://github.com/yanxvdong123/xcrawl-scraper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Node.js SDK + CLI for XCrawl — the web scraping API that handles JS rendering, CAPTCHAs, and proxy rotation automatically.**
+**Node.js SDK + CLI for XCrawl — the web scraping API that handles JS rendering, CAPTCHAs, and proxy rotation automatically.** Just point it at a URL and get clean data back.
 
 ```bash
 npx xcrawl-scraper scrape https://example.com --api-key YOUR_KEY
 ```
-
-## Features
-
-- **Scrape** any URL → clean Markdown, JSON, HTML, or text
-- **Search** the web → structured results with snippets
-- **Crawl** entire sites → built-in sitemap discovery
-- **AI extraction** → describe what you want in plain English, get JSON
-- **Proxy control** → choose exit region (US, JP, DE, etc.) or sticky sessions
-- **Batch scrape** → concurrent scraping with configurable limits
 
 ## Installation
 
@@ -49,6 +40,15 @@ const extracted = await xcrawl.extractJson(
 );
 console.log(extracted.data?.json);
 ```
+
+## Features
+
+- **Scrape** any URL → clean Markdown, JSON, HTML, or text
+- **Search** the web → structured results with snippets
+- **Crawl** entire sites → built-in sitemap discovery
+- **AI extraction** → describe what you want in plain English, get JSON
+- **Proxy control** → choose exit region (US, JP, DE, etc.) or sticky sessions
+- **Batch scrape** → concurrent scraping with configurable limits
 
 ## API Reference
 
@@ -185,7 +185,15 @@ Plans: **Free** (1000 credits) → **Hobby $8/mo** (5k) → **Starter $49/mo** (
 
 - [XCrawl Dashboard](https://dash.xcrawl.com) — Get your API key
 - [Documentation](https://docs.xcrawl.com) — Full API reference
-- [GitHub](https://github.com/xcrawl-api/xcrawl-sdk) — SDK source
+- [GitHub](https://github.com/yanxvdong123/xcrawl-scraper) — SDK source
+- [npm](https://www.npmjs.com/package/xcrawl-scraper) — npm package
+
+## Support
+
+If you find this useful, consider:
+- ⭐ **Starring the repo** on [GitHub](https://github.com/yanxvdong123/xcrawl-scraper)
+- 🛒 **Buying credits** on [Gumroad](https://charlescome.gumroad.com/l/qflyjq)
+- 💬 **Contributing** — PRs, issues, and feature requests welcome!
 
 ## License
 

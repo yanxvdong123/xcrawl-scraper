@@ -1,34 +1,54 @@
 {
-    "name":  "xcrawl-scraper",
-    "version":  "1.0.1",
-    "description":  "Node.js SDK for XCrawl Web Scraping Proxy API — scrape web pages with automatic IP rotation and anti-bot bypass",
-    "main":  "dist/index.js",
-    "types":  "dist/index.d.ts",
-    "scripts":  {
-                    "build":  "tsc",
-                    "prepublish":  "npm run build",
-                    "test":  "jest"
-                },
-    "keywords":  [
-                     "xcrawl",
-                     "web-scraping",
-                     "proxy",
-                     "scraper",
-                     "crawler",
-                     "anti-bot"
-                 ],
-    "license":  "MIT",
-    "files":  [
-                  "dist/",
-                  "README.md"
-              ],
-    "devDependencies":  {
-                            "typescript":  "^5.5.0",
-                            "jest":  "^29.0.0",
-                            "ts-jest":  "^29.0.0",
-                            "@types/node":  "^20.0.0"
-                        },
-    "dependencies":  {
-                         "axios":  "^1.7.0"
-                     }
+    "name": "xcrawl-scraper",
+    "version": "1.0.2",
+    "description": "Node.js SDK for XCrawl Web Scraping Proxy API — scrape web pages with automatic IP rotation and anti-bot bypass. Handles JS rendering, CAPTCHAs, proxy rotation, AI extraction out of the box.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build",
+        "test": "jest"
+    },
+    "keywords": [
+        "xcrawl",
+        "web-scraping",
+        "proxy",
+        "scraper",
+        "crawler",
+        "anti-bot",
+        "captcha-bypass",
+        "js-rendering",
+        "ai-extraction",
+        "data-collection",
+        "puppeteer-alternative",
+        "headless-browser",
+        "residential-proxy"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/yanxvdong123/xcrawl-scraper#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yanxvdong123/xcrawl-scraper.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yanxvdong123/xcrawl-scraper/issues"
+    },
+    "files": [
+        "dist/",
+        "bin/",
+        "README.md",
+        "LICENSE"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.0",
+        "jest": "^29.0.0",
+        "ts-jest": "^29.0.0",
+        "@types/node": "^20.0.0"
+    },
+    "dependencies": {
+        "axios": "^1.7.0"
+    }
 }
